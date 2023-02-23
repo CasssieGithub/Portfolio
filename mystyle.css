@@ -1,0 +1,347 @@
+nav {
+  box-shadow: 0px 1px 6px #0000007a;
+  background-color: #efd9d9;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  overflow: hidden;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+}
+
+ul {
+  text-align: center;
+  font-size: 20px;
+  background-color: #efd9d9;
+  margin: 0;
+  width: 70%;
+}
+
+.navName {
+  font-size: 25px;
+  font-family: "Shadows Into Light", cursive;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+}
+/* 
+.backgroundImg {
+  background-image: url("https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/cloud/cumulus-cloud.jpg/cumulus-cloud.jpg/metofficegovuk%3AheroMedium");
+} */
+
+/* Create a video and replace the image below with a video of me narrating the information on the side.  */
+
+.fade-in-text {
+  font-size: 75px;
+  animation: fadeIn 5s;
+  text-align: center;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 130px;
+  padding-top: 30px;
+  padding-bottom: 150px;
+
+  /* background-image: url("https://media.istockphoto.com/id/1368007300/video/sun-comes-out-from-behind-a-cloud-in-the-early-morning-above-the-clouds-flying-above-the.jpg?b=1&s=640x640&k=20&c=WedPUUgBFvgzvAMQDlrTQPMx_Ww6emScWM8I4C2hA4g="); */
+}
+
+.imgBorder {
+  box-shadow: -2px 7px 10px #0000007a;
+  background-color: #efd9d9;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.first {
+  margin-top: 100px;
+}
+
+.second {
+  font-size: 50px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+li {
+  display: inline;
+  color: white;
+  margin: 10px;
+}
+.mainText {
+  text-align: left;
+  margin-left: 75px;
+  font-family: "EB Garamond", serif;
+  padding: 50px;
+  font-size: 18px;
+}
+
+body {
+  background-color: white;
+  max-width: 100%;
+  margin: 0;
+}
+
+.containEverything {
+  padding: 30px;
+}
+
+.myaboutmeText {
+  font-size: 20px;
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 60px;
+}
+.myAboutMe {
+  font-family: "EB Garamond", serif;
+  font-size: 40px;
+  margin: 0px;
+  padding-top: 80px;
+}
+
+.myProjects {
+  font-size: 40px;
+  font-family: "EB Garamond", serif;
+  margin: 0;
+  padding-top: 80px;
+}
+.allProjects {
+  display: flex;
+  margin: 10px;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.project-description {
+  font-size: 15px;
+}
+
+.projectBorder1 {
+  box-shadow: -2px 7px 10px #0000007a;
+  background-color: #efd9d9;
+  padding: 30px 30px 20px 20px;
+  margin: 15px;
+}
+
+.projectBorder2 {
+  box-shadow: -2px 7px 10px #0000007a;
+  background-color: #efd9d9;
+  padding: 30px 30px 20px 20px;
+  margin: 15px;
+}
+
+.projectBorder3 {
+  box-shadow: -2px 7px 10px #0000007a;
+  background-color: #efd9d9;
+  padding: 30px 30px 20px 20px;
+  margin: 15px;
+}
+
+.projectBorder4 {
+  box-shadow: -2px 7px 10px #0000007a;
+  background-color: #efd9d9;
+  padding: 30px 30px 20px 20px;
+  margin: 15px;
+}
+
+.myConnections {
+  font-size: 40px;
+  font-family: "EB Garamond", serif;
+}
+
+.ticTacToe {
+  padding: 0px;
+}
+
+.snake {
+  padding: 0px;
+}
+
+.rockPaperScissors {
+  padding: 0px;
+}
+.crossword {
+  padding: 0px;
+}
+
+.projectButton1 {
+  margin-left: 65px;
+  font-size: 23px;
+  font-family: "Shadows Into Light", cursive;
+}
+.projectButton2 {
+  margin-left: 100px;
+  font-size: 23px;
+  font-family: "Shadows Into Light", cursive;
+}
+.projectButton3 {
+  margin-left: 36px;
+  font-size: 23px;
+  font-family: "Shadows Into Light", cursive;
+}
+.projectButton4 {
+  margin-left: 85px;
+  font-size: 23px;
+  font-family: "Shadows Into Light", cursive;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+
+  .fade-in-text {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding-bottom: 30px;
+  }
+  .mainText {
+    display: flex;
+    flex-direction: column;
+    margin: inherit;
+  }
+  .fade-in-image {
+    padding-left: 60px;
+  }
+  .first {
+    font-size: 30px;
+  }
+  .second {
+    font-size: 30px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .myAboutMe {
+    text-align: center;
+  }
+  .myaboutmeText {
+    text-align: center;
+  }
+  .myaboutmeText br {
+    display: none;
+  }
+
+  .containProjects {
+    text-align: center;
+  }
+  .allProjects {
+    flex-direction: column;
+  }
+  .myProjects {
+    padding-top: 0px;
+  }
+
+  .projectBorder1 {
+    margin: 30px;
+  }
+
+  .myConnections {
+    text-align: center;
+  }
+  .contacts {
+    text-align: center;
+  }
+
+  .allNavLinks {
+    position: fixed;
+    top: 5rem;
+    display: none;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0px;
+  }
+
+  li {
+    display: block;
+  }
+
+  .nav-item {
+    margin: 2.5rem 0;
+    padding: none;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    margin-left: auto;
+    padding-right: 50px;
+  }
+
+  h3 {
+    margin-left: auto;
+  }
+
+  h4 {
+    margin-left: auto;
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+  }
+}
