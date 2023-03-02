@@ -11,7 +11,7 @@ The technology I used for my application were:
 The approach I took was wire frame. I broke down all my steps on a piece of paper and included pictures. I tackled my code step by step from top to bottom of application (from nav bar to connections at bottom of application).
 
 Link to my live site:
-\*\*\* link goes here
+https://cassie-firstproject-portfolio.netlify.app/
 
 Installation Instructions:
 In order to access my portfolio, you need to download my code.
