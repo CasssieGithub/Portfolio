@@ -57,9 +57,7 @@
           <a id="changeColorWhenClicked2" href="#aboutMe">About Me</a>
         </li>
         <li class="navItems">
-          <a href="file:///Users/cassie/Downloads/Resume.pdf" target="_blank"
-            >Resume</a
-          >
+          <a href="./Resume.pdf" target="_blank">Resume</a>
         </li>
         <li class="navItems">
           <a id="changeColorWhenClicked3" href="#projects">Projects</a>
@@ -70,12 +68,13 @@
       </ul>
       <!--              Icons                  -->
       <!-- This is the button I created to switch my app from light to dark mode. The icons I chose (moon and sun) already came with a class. So, I didnt need to assign anything. -->
-
-      <button class="changeToDarkMode">
-        <i class="bi bi-brightness-high"></i>
-        <i class="bi bi-moon-fill"></i>
-      </button>
-
+      <div class="toolTip">
+        <button class="changeToDarkMode">
+          <i class="bi bi-brightness-high"></i>
+          <i class="bi bi-moon-fill"></i>
+        </button>
+        <span class="toolTipText">Change Mode</span>
+      </div>
       <!--          Hamburger Menu              -->
       <!-- I created a div to hold the hamburger menu upon the page collapsing. -->
       <div class="hamburger">
@@ -291,12 +290,7 @@
             </div>
             <div id="resume">
               <i class="bi bi-file-earmark-pdf-fill"></i>
-              <a
-                class="linkFontColorsDarkTheme"
-                href="file:///Users/cassie/Downloads/Resume.pdf"
-              >
-                Resume</a
-              >
+              <a class="linkFontColorsDarkTheme" href="./Resume.pdf"> Resume</a>
             </div>
           </div>
         </div>

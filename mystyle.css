@@ -290,8 +290,32 @@ body {
 .bi.bi-brightness-high {
   display: none;
 }
+
 .bi.bi-moon-fill {
   display: block;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.toolTip .toolTipText {
+  visibility: hidden;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 5px;
+  left: 86%;
+  font-size: 15px;
+}
+
+.toolTip:hover .toolTipText {
+  visibility: visible;
 }
 
 .icons {
@@ -324,6 +348,11 @@ body {
   padding-right: 3px;
 }
 
+@media screen and (max-width: 1600px) {
+  .toolTip .toolTipText {
+    left: 90%;
+  }
+}
 @media screen and (max-width: 1400px) {
   .allProjects {
     flex-wrap: wrap;
@@ -336,13 +365,26 @@ body {
     margin: 20px;
     padding: 20px;
   }
+  .toolTip .toolTipText {
+    left: 90%;
+  }
 }
 @media screen and (max-width: 1300px) {
   .fade-in-text {
     color: white;
   }
 }
+@media screen and (max-width: 1250px) {
+  .toolTip .toolTipText {
+    left: 88%;
+  }
+}
+
 @media screen and (max-width: 950px) {
+  .toolTip .toolTipText {
+    font-size: 10px;
+  }
+
   .mainText {
     margin: 20px;
     padding: 20px;
@@ -414,7 +456,7 @@ body {
   }
   .fade-in-image {
     width: 100%;
-    padding: 100px 100px 20px 100px;
+    padding: 50px 100px 20px 100px;
   }
   .first {
     font-size: 50px;
@@ -473,13 +515,15 @@ body {
 
   .allNavLinks {
     position: fixed;
-    top: 5rem;
-    display: none;
+    top: 2rem;
     background-color: #fff;
     width: 100%;
-    border-radius: 10px;
     text-align: center;
     padding: 0px;
+    border: solid;
+    display: block;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
 
   .imgBorder {
@@ -516,6 +560,9 @@ body {
     width: 100%;
     padding-right: 15px;
     font-size: 21px;
+  }
+  .toolTip .toolTipText {
+    left: 31%;
   }
 }
 
