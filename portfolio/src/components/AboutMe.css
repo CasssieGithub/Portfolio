@@ -1,0 +1,41 @@
+.containEverything {
+  padding: 30px;
+}
+.myaboutmeText {
+  font-size: 21px;
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  margin: 55px 0px 60px 0px;
+  padding: 0px 150px 0px 150px;
+}
+.myAboutMe {
+  font-family: "EB Garamond", serif;
+  font-size: 50px;
+  margin: 0px;
+  padding: 80px 0px 10px 0px;
+  text-align: center;
+}
+@media screen and (max-width: 950px) {
+  .myAboutMe {
+    text-align: center;
+    font-size: 50px;
+  }
+  .myaboutmeText {
+    font-size: 21px;
+    font-family: "EB Garamond", serif;
+    text-align: center;
+    margin: 55px 0px 60px 0px;
+    padding: 0px 50px 0px 50px;
+  }
+}
+
+@media screen and (max-length: 700px) {
+  .myAboutMe {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 0px;
+  }
+  .myaboutmeText br {
+    display: none;
+  }
+}
