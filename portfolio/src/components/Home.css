@@ -1,0 +1,83 @@
+.fade-in-text {
+  font-size: 75px;
+  animation: fadeIn 5s;
+  text-align: center;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 130px;
+  padding-top: 15px;
+  padding-bottom: 150px;
+}
+
+.first {
+  margin: 70px 0px 0px 0px;
+  padding-right: 243px;
+  font-size: 60px;
+}
+.second {
+  font-size: 40px;
+  margin: 0%;
+  padding: 0px 240px 0px 100px;
+}
+.imgBorder {
+  box-shadow: -2px 7px 10px #0000007a;
+  background-color: #e3c5c5;
+  padding: 20px 30px 20px 30px;
+  margin-top: 40px;
+}
+.imgBorder {
+  width: 100%;
+}
+.backgroundImg {
+  background-image: url("https://i.imgur.com/brCUXFY.jpg");
+  padding: 58px 0px 25px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 950px) {
+  .fade-in-text {
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+  }
+  .first {
+    padding-right: 0px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .second {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .fade-in-text {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .fade-in-text {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding-bottom: 30px;
+  }
+  .first {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .second {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+  .fade-in-image {
+    width: 100%;
+    padding: 50px 100px 20px 100px;
+  }
+}

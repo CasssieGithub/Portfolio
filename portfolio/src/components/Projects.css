@@ -1,0 +1,143 @@
+.myProjects {
+  font-size: 50px;
+  font-family: "EB Garamond", serif;
+  margin: 0;
+  text-align: center;
+  padding: 50px 0px 20px 0px;
+}
+
+.line {
+  margin: auto;
+  height: 0px;
+  width: 50%;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+}
+.allProjects {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+  margin: 50px 0px 60px 0px;
+  flex-wrap: wrap;
+}
+.projectBorder1 {
+  box-shadow: -2px 7px 10px #0000007a;
+  background-color: #e3c5c5;
+  padding: 10px 20px 10px 20px;
+  margin: 15px;
+}
+.projectBorder2 {
+  box-shadow: -2px 7px 10px #0000007a;
+  background-color: #efd9d9;
+  padding: 30px 30px 20px 20px;
+  margin: 15px;
+}
+
+.projectBorder3 {
+  box-shadow: -2px 7px 10px #0000007a;
+  background-color: #efd9d9;
+  padding: 30px 30px 20px 20px;
+  margin: 15px;
+}
+
+.projectBorder4 {
+  box-shadow: -2px 7px 10px #0000007a;
+  background-color: #efd9d9;
+  padding: 30px 30px 20px 20px;
+  margin: 15px;
+}
+.project-description {
+  font-size: 15px;
+}
+.ticTacToe {
+  padding: 0px;
+}
+.ticTacToeTwo {
+  display: none;
+}
+.projectButton1 {
+  margin-left: 65px;
+  font-size: 23px;
+  font-family: "Shadows Into Light", cursive;
+}
+.projectButton2 {
+  margin-left: 100px;
+  font-size: 23px;
+  font-family: "Shadows Into Light", cursive;
+}
+.projectButton3 {
+  margin-left: 36px;
+  font-size: 23px;
+  font-family: "Shadows Into Light", cursive;
+}
+.projectButton4 {
+  margin-left: 85px;
+  font-size: 23px;
+  font-family: "Shadows Into Light", cursive;
+}
+.snake {
+  padding: 0px;
+}
+.snakeTwo {
+  display: none;
+}
+.rockPaperScissors {
+  padding: 0px;
+}
+.rockPaperScissorsTwo {
+  display: none;
+}
+.wordSearch {
+  padding: 0px;
+}
+.wordSearchTwo {
+  display: none;
+}
+
+@media screen and (max-width: 1400px) {
+  .allProjects {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 60%;
+    margin: auto;
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .myProjects {
+    text-align: center;
+    font-size: 50px;
+    padding: 30px 0px 20px 0px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .containProjects {
+    text-align: center;
+  }
+  .myProjects {
+    padding-top: 0px;
+    font-size: 50px;
+  }
+  .projectBorder1 {
+    margin: 30px;
+  }
+  .projectButton1 {
+    margin: 0px;
+  }
+  .projectButton2 {
+    margin: 0px;
+  }
+  .projectButton3 {
+    margin: 0px;
+  }
+  .projectButton4 {
+    margin: 0px;
+  }
+}

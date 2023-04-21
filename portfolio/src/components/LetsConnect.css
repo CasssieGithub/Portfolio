@@ -1,0 +1,67 @@
+.myConnections {
+  font-size: 50px;
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  margin: 65px 0px 20px 0px;
+}
+.line {
+  margin: auto;
+  height: 0px;
+  width: 50%;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+}
+.icons {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  padding: 30px 0px 20px 0px;
+}
+#gitHub {
+  display: flex;
+  padding-right: 20px;
+}
+#linkedIn {
+  display: flex;
+  padding-right: 20px;
+}
+#mail {
+  display: flex;
+  padding-right: 15px;
+}
+.bi.bi-github {
+  padding-right: 3px;
+}
+.bi.bi-linkedin {
+  padding-right: 3px;
+}
+.bi.bi-envelope-at-fill {
+  padding-right: 3px;
+}
+
+@media screen and (max-width: 950px) {
+  .myConnections {
+    text-align: center;
+    font-size: 50px;
+  }
+  .contacts {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .myConnections {
+    text-align: center;
+    font-size: 50px;
+  }
+  .contacts {
+    text-align: center;
+  }
+}
