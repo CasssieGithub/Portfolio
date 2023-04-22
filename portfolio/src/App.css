@@ -43,10 +43,11 @@
 
 /* ========================================START HERE===================================================== */
 
-/* Home */
-
-/* About Me */
-
-/* Projects */
-
-/* Let's connect */
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+.light {
+  background-color: #fff;
+  color: #333;
+}

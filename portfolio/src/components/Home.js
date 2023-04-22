@@ -13,12 +13,12 @@ const Home = () => {
           </div>
         </div>
         <div className="fade-in-image">
-          <img
+          {/* <img
             className="imgBorder"
             src="https://i.imgur.com/qodNEsn.jpg"
             width="400px"
             alt="Fade-in"
-          />
+          /> */}
         </div>
       </div>
     </>
