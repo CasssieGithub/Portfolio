@@ -6,7 +6,7 @@ import "./Nav.css";
 // id="changeColorWhenClicked4"
 // FOR JQUERY!
 
-const Nav = () => {
+const Nav = (props) => {
   return (
     <>
       <nav>
@@ -44,6 +44,7 @@ const Nav = () => {
             <i className="bi bi-moon-fill"></i>
           </button>
           <span className="toolTipText">Change Mode</span>
+          <button onClick={props.toggleTheme}>Toggle Theme</button>
         </div>
         <div className="hamburger">
           <span className="bar"></span>
