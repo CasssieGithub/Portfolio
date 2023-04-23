@@ -6,7 +6,7 @@ Table of contents:
 - Description
 - Pictures
 - Technology Used
-- How to start
+- Installation Instructions
 
 
 Description:
@@ -28,7 +28,6 @@ Technology Used:
 5. CSS
 
 
-How to start: 
 Installation Instructions:
 1. Clone my repository git@github.com:CasssieGithub/Portfolio.git.
 2. cd into Portfolio 
