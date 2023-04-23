@@ -1,34 +1,31 @@
+# Welcome to my portfolio website
 
-
-                                                    Welcome to my portfolio website! 
-
-Table of contents:
+## Table of Contents
 - Description
 - Pictures
 - Technology Used
 - Installation Instructions
 
 
-Description:
+## Description
 This is my portfolio. My portfolio is an representation of myself and projects I've worked on. It was really fun to make! I hope you enjoy it!
 
 
-Pictures:
+## Pictures
 
 *** will enter photos when I'm done ***
 
 
 
 
-Technology Used:
+## Technology Used
 1. Javascript
 2. React
-3. React-Reveal
-4. HTML
-5. CSS
+3. HTML
+4. CSS
 
 
-Installation Instructions:
+## Installation Instructions
 1. Clone my repository git@github.com:CasssieGithub/Portfolio.git.
 2. cd into Portfolio 
 3. npm install
