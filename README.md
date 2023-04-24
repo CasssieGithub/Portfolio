@@ -8,7 +8,7 @@
 
 
 ## Description
-This is my portfolio. My portfolio is an representation of myself and projects I've worked on. It was really fun to make! I hope you enjoy it!
+My portfolio is an representation of myself and projects I've worked on. It was really fun to make! I hope you enjoy it!
 
 
 ## Pictures
