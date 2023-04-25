@@ -9,6 +9,7 @@ import "./App.css";
 
 const App = () => {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
+
   const toggleTheme = () => {
     if (theme === "light") {
       setTheme("dark");
@@ -16,6 +17,7 @@ const App = () => {
       setTheme("light");
     }
   };
+
   useEffect(() => {
     localStorage.setItem("theme", theme);
     document.body.className = theme;
@@ -25,10 +27,10 @@ const App = () => {
       <div className={`App ${theme}`}></div>
       <main>
         <Nav toggleTheme={toggleTheme} />
-        <Home />
+        <Home theme={theme} />
         <AboutMe />
         <Projects />
-        <LetsConnect />
+        <LetsConnect theme={theme} />
       </main>
     </>
   );

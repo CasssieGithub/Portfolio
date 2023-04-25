@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap");
+
+.container {
+  text-align: center;
+  width: 400px;
+  height: 300px;
+  margin: auto;
+}
+
 .myProjects {
   font-size: 50px;
   font-family: "EB Garamond", serif;
@@ -20,24 +29,33 @@
   border-left-color: rgb(0, 0, 0);
   background-color: rgb(0, 0, 0);
 }
+
 .allProjects {
   display: flex;
   margin: 10px;
-  justify-content: space-between;
+  justify-content: center;
   margin: 50px 0px 60px 0px;
   flex-wrap: wrap;
 }
+
 .projectBorder1 {
   box-shadow: -2px 7px 10px #0000007a;
   background-color: #e3c5c5;
   padding: 10px 20px 10px 20px;
   margin: 15px;
+  border: 2px solid;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+  width: 35%;
+  text-align: center;
 }
 .projectBorder2 {
   box-shadow: -2px 7px 10px #0000007a;
   background-color: #efd9d9;
   padding: 30px 30px 20px 20px;
   margin: 15px;
+  border: 2px solid;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .projectBorder3 {
@@ -45,6 +63,8 @@
   background-color: #efd9d9;
   padding: 30px 30px 20px 20px;
   margin: 15px;
+  border: 2px solid;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .projectBorder4 {
@@ -52,52 +72,98 @@
   background-color: #efd9d9;
   padding: 30px 30px 20px 20px;
   margin: 15px;
+  border: 2px solid;
+  font-family: "Cormorant Garamond", serif;
 }
-.project-description {
+.cardInfo {
+  text-align: left;
+}
+.healthyMindsProjectDescription {
   font-size: 15px;
 }
-.ticTacToe {
-  padding: 0px;
+
+.socialSiteProjectDescription {
+  font-size: 15px;
+  padding: 0px 0px 15px 0px;
 }
-.ticTacToeTwo {
-  display: none;
+.cardifyProjectDescription {
+  font-size: 15px;
+  padding: 0px 0px 15px 0px;
 }
+.stopForgettingAndStartListingProjectDescription {
+  font-size: 15px;
+  padding: 0px 0px 15px 0px;
+}
+
 .projectButton1 {
-  margin-left: 65px;
-  font-size: 23px;
-  font-family: "Shadows Into Light", cursive;
+  font-size: 30px;
+  font-family: "Cormorant Garamond", serif;
+}
+.projectTitle {
+  font-size: 30px;
+  font-family: "Cormorant Garamond", serif;
+  padding-top: 25px;
 }
 .projectButton2 {
-  margin-left: 100px;
-  font-size: 23px;
-  font-family: "Shadows Into Light", cursive;
+  font-size: 30px;
+  font-family: "Cormorant Garamond", serif;
 }
 .projectButton3 {
-  margin-left: 36px;
-  font-size: 23px;
-  font-family: "Shadows Into Light", cursive;
+  font-size: 30px;
+  font-family: "Cormorant Garamond", serif;
 }
 .projectButton4 {
-  margin-left: 85px;
-  font-size: 23px;
-  font-family: "Shadows Into Light", cursive;
+  font-size: 30px;
+  font-family: "Cormorant Garamond", serif;
 }
-.snake {
+.healthyMinds {
   padding: 0px;
+  width: 100%;
+  border: 2px solid;
+  height: 240px;
 }
-.snakeTwo {
+.healthyMindsTwo {
   display: none;
 }
-.rockPaperScissors {
+.socialSite {
   padding: 0px;
+  width: 100%;
+  border: 2px solid;
+  height: 240px;
 }
-.rockPaperScissorsTwo {
+
+.containsImages {
+  height: 100% !important;
+  width: 100% !important;
+  display: inline-block;
+  transition: all 0.5s;
+  box-shadow: 4px 4px 4px #0000007a;
+}
+
+.containsImages:hover {
+  -ms-transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+.socialSiteTwo {
   display: none;
 }
-.wordSearch {
+.cardify {
   padding: 0px;
+  width: 100%;
+  border: 2px solid;
+  height: 240px;
 }
-.wordSearchTwo {
+.cardifyTwo {
+  display: none;
+}
+.stopForgettingStartListing {
+  padding: 0px;
+  width: 100%;
+  border: 2px solid;
+  height: 240px;
+}
+.stopForgettingStartListingTwo {
   display: none;
 }
 

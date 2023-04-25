@@ -1,9 +1,15 @@
+import { useState } from "react";
 import "./LetsConnect.css";
+import Fade from "react-reveal/Fade";
 
-const LetsConnect = () => {
+const LetsConnect = (props) => {
+  const [darkMode, setdarkMode] = useState();
+
   return (
     <>
-      <div id="letsConnect" className="containConnections">
+      {/* {props.theme === "light" ? (<>
+       </>) : (<> </>) } */}
+      <Fade bottom id="letsConnect" className="containConnections">
         <h5 className="myConnections">Let's Connect</h5>
         <div className="line"></div>
 
@@ -15,7 +21,7 @@ const LetsConnect = () => {
                 className="linkFontColorsDarkTheme"
                 href="mailto: casssie.hernandez13@gmail.com"
               >
-                Email me!
+                Email
               </a>
             </div>
           </div>
@@ -50,7 +56,7 @@ const LetsConnect = () => {
             </a>
           </div>
         </div>
-      </div>
+      </Fade>
     </>
   );
 };
