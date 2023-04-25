@@ -17,6 +17,7 @@
   border-bottom-color: rgb(0, 0, 0);
   border-left-color: rgb(0, 0, 0);
   background-color: rgb(0, 0, 0);
+  animation-duration: 3000ms !important;
 }
 .icons {
   display: flex;

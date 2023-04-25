@@ -2,7 +2,7 @@ nav {
   box-shadow: 0px 1px 6px #0000007a;
   background-color: #e3c5c5;
   display: flex;
-  padding: 20px;
+  padding: 25px;
   align-items: center;
   overflow: hidden;
   position: fixed;
@@ -13,7 +13,7 @@ nav {
 
 .allNavLinks {
   padding: 0px 76px 0px 0px;
-  font-size: 16px;
+  font-size: 18px;
 }
 a {
   color: black;
@@ -30,7 +30,10 @@ ul {
 
 .navName {
   font-size: 20px;
-  font-family: "Shadows Into Light", cursive;
+  font-family: "EB Garamond", serif;
+}
+.navItems {
+  font-family: "EB Garamond", serif;
 }
 li {
   display: inline;
@@ -61,13 +64,13 @@ li {
   visibility: visible;
 }
 
-.changeToDarkMode {
+/* .changeToDarkMode {
   background: none;
   border: none;
   border-radius: 5px;
   font-size: 25px;
   width: 3%;
-}
+} */
 .bi.bi-brightness-high {
   display: none;
 }
@@ -149,10 +152,10 @@ li {
     transition: all 0.3s ease-in-out;
     background-color: #101010;
   }
-  .changeToDarkMode {
+  /* .changeToDarkMode {
     text-align: right;
     width: 100%;
     padding-right: 15px;
     font-size: 21px;
-  }
+  } */
 }

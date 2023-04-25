@@ -1,10 +1,10 @@
 import "./AboutMe.css";
-
+import Fade from "react-reveal/Fade";
 const AboutMe = () => {
   return (
     <>
       <div className="containEverything">
-        <div id="aboutMe" className="containAboutMe">
+        <Fade bottom id="aboutMe" className="containAboutMe">
           <h5 className="myAboutMe">About Me</h5>
           <div className="line"></div>
           <p className="myaboutmeText">
@@ -25,7 +25,7 @@ const AboutMe = () => {
             I hope you enjoy it!
             <br />
           </p>
-        </div>
+        </Fade>
       </div>
     </>
   );
