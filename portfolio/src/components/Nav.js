@@ -7,36 +7,53 @@ const Nav = (props) => {
         <div className="navName">Cassie Hernandez</div>
         <ul className="allNavLinks">
           <li className="navItems">
-            <a id="changeColorWhenClicked1" href="#homeButton">
+            <a
+              className="homeBtn"
+              id="changeColorWhenClicked1"
+              href="#homeButton"
+            >
               Home
             </a>
           </li>
           <li className="navItems">
-            <a id="changeColorWhenClicked2" href="#aboutMe">
+            <a
+              className="aboutMeBtn"
+              id="changeColorWhenClicked2"
+              href="#aboutMe"
+            >
               About Me
             </a>
           </li>
           <li className="navItems">
-            <a href="./Resume.pdf" target="_blank">
+            <a className="resumeBtn" href="./Resume.pdf" target="_blank">
               Resume
             </a>
           </li>
           <li className="navItems">
-            <a id="changeColorWhenClicked3" href="#projects">
+            <a
+              className="projectsBtn"
+              id="changeColorWhenClicked3"
+              href="#projects"
+            >
               Projects
             </a>
           </li>
           <li className="navItems">
-            <a id="changeColorWhenClicked4" href="#letsConnect">
+            <a
+              className="letsConnectBtn"
+              id="changeColorWhenClicked4"
+              href="#letsConnect"
+            >
               Let's Connect
             </a>
           </li>
         </ul>
         <div className="toolTip">
-          <div onClick={props.toggleTheme}>
-            Switch to dark mode here
+          {/* I will finish this later. */}
+          {/* <div onClick={props.toggleTheme}>
+            Dark Mode
             <i className="bi bi-moon-fill"> </i>
-          </div>
+          </div> */}
           <span className="toolTipText">Change Mode</span>
         </div>
         <div className="hamburger">

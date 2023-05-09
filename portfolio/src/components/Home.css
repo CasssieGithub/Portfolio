@@ -6,11 +6,12 @@
   -moz-animation: fadeIn 3s;
   -o-animation: fadeIn 3s;
   -ms-animation: fadeIn 3s;
-  max-width: 100%;
+  /* max-width: 100%; */
   max-height: 100%;
-  margin: 120px 0px 120px 100px;
+  margin: 120px 0px 120px 50px;
   padding-top: 15px;
   padding-bottom: 150px;
+  width: 50%;
 }
 
 .first {
@@ -36,9 +37,9 @@
 }
 .backgroundImg {
   display: flex;
-  margin: 100px;
-  padding-left: 100px;
-  width: 100%;
+  margin: 100px 10px 50px 50px;
+  /* padding-left: 100px; */
+  /* width: 100%; */
 }
 .girlsWhoCode {
   margin-top: 20px;

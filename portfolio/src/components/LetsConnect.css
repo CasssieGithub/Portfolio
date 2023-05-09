@@ -1,50 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Cormorant+Garamond:wght@300&display=swap");
+
 .myConnections {
   font-size: 50px;
-  font-family: "EB Garamond", serif;
   text-align: center;
-  margin: 65px 0px 20px 0px;
+  margin: 65px 0px 0px 0px;
+  background-color: #f2e7da;
+  font-family: "Cormorant Garamond", serif;
+  padding-top: 30px;
 }
-.line {
-  margin: auto;
-  height: 0px;
-  width: 50%;
-  border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
-  border-top-color: rgb(0, 0, 0);
-  border-right-color: rgb(0, 0, 0);
-  border-bottom-color: rgb(0, 0, 0);
-  border-left-color: rgb(0, 0, 0);
-  background-color: rgb(0, 0, 0);
-  animation-duration: 3000ms !important;
+.easyAsOneTwoThree {
+  font-size: 30px;
+  text-align: center;
+  margin: 0px;
+  background-color: #f2e7da;
+  font-family: "Cedarville Cursive", cursive;
+  padding-left: 150px;
 }
 .icons {
   display: flex;
   font-size: 20px;
   justify-content: center;
-  padding: 30px 0px 20px 0px;
+  padding: 0px 0px 20px 0px;
+  background-color: #f2e7da;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
 }
+.numberOnFooter {
+  font-size: 50px;
+  padding-right: 10px;
+  color: #caa26e;
+}
+
 #gitHub {
   display: flex;
-  padding-right: 20px;
+  align-items: baseline;
+  padding-right: 60px;
 }
 #linkedIn {
   display: flex;
-  padding-right: 20px;
+  align-items: baseline;
+  padding-right: 60px;
 }
 #mail {
   display: flex;
-  padding-right: 15px;
-}
-.bi.bi-github {
-  padding-right: 3px;
-}
-.bi.bi-linkedin {
-  padding-right: 3px;
-}
-.bi.bi-envelope-at-fill {
-  padding-right: 3px;
+  align-items: baseline;
+  padding-right: 60px;
 }
 
 @media screen and (max-width: 950px) {

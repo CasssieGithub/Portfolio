@@ -1,24 +1,21 @@
-import { useState } from "react";
 import "./LetsConnect.css";
-import Fade from "react-reveal/Fade";
 
-const LetsConnect = (props) => {
-  const [darkMode, setdarkMode] = useState();
-
+const LetsConnect = () => {
   return (
     <>
       {/* {props.theme === "light" ? (<>
        </>) : (<> </>) } */}
-      <Fade bottom id="letsConnect" className="containConnections">
-        <h5 className="myConnections">Let's Connect</h5>
+      <div id="letsConnect" className="containConnections">
+        <h5 className="myConnections">Connect with me</h5>
+        <h3 className="easyAsOneTwoThree">It's easy as 1, 2 or 3</h3>
         <div className="line"></div>
 
         <div className="icons">
           <div id="mail">
-            <i className="bi bi-envelope-at-fill"></i>
+            <div className="numberOnFooter">1</div>
             <div>
               <a
-                className="linkFontColorsDarkTheme"
+                className="emailBtnToConnect"
                 href="mailto: casssie.hernandez13@gmail.com"
               >
                 Email
@@ -26,10 +23,10 @@ const LetsConnect = (props) => {
             </div>
           </div>
           <div id="gitHub">
-            <i className="bi bi-github"></i>
+            <div className="numberOnFooter">2</div>
             <div>
               <a
-                className="linkFontColorsDarkTheme"
+                className="gitHubBtnToConnect"
                 href="https://github.com/CasssieGithub"
               >
                 GitHub
@@ -38,25 +35,18 @@ const LetsConnect = (props) => {
           </div>
 
           <div id="linkedIn">
-            <i className="bi bi-linkedin"></i>
+            <div className="numberOnFooter">3</div>
             <div>
               <a
-                className="linkFontColorsDarkTheme"
+                className="linkedInBtnToConnect"
                 href="https://www.linkedin.com/in/cassandra-hernandez-software-engineer/"
               >
                 Linked in
               </a>
             </div>
           </div>
-          <div id="resume">
-            <i className="bi bi-file-earmark-pdf-fill"></i>
-            <a className="linkFontColorsDarkTheme" href="./Resume.pdf">
-              {" "}
-              Resume
-            </a>
-          </div>
         </div>
-      </Fade>
+      </div>
     </>
   );
 };
