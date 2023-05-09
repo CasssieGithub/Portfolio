@@ -1,6 +1,4 @@
 nav {
-  box-shadow: 0px 1px 6px #0000007a;
-  background-color: #e3c5c5;
   display: flex;
   padding: 25px;
   align-items: center;
@@ -9,20 +7,25 @@ nav {
   z-index: 100;
   top: 0;
   width: 100%;
+  background-color: #f1ddc3;
+  border-bottom: 4mm ridge rgb(255 255 255 / 60%);
 }
 
 .allNavLinks {
-  padding: 0px 76px 0px 0px;
   font-size: 18px;
+  text-align: right;
 }
 a {
   color: black;
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 ul {
   text-align: center;
-  background-color: #e3c5c5;
   margin: 0;
   width: 70%;
   flex-grow: 1;

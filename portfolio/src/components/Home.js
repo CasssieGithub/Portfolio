@@ -9,7 +9,7 @@ const Home = (props) => {
             <div className="fade-in-text">
               <p className="first">Hi, I'm Cassie!</p>
               <p className="second">
-                <i>Software Engineer</i>
+                <i>Front-end Engineer</i>
               </p>
             </div>
 

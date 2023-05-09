@@ -9,25 +9,10 @@
 
 .myProjects {
   font-size: 50px;
-  font-family: "EB Garamond", serif;
+  font-family: "Cormorant Garamond", serif;
   margin: 0;
   text-align: center;
   padding: 50px 0px 20px 0px;
-}
-
-.line {
-  margin: auto;
-  height: 0px;
-  width: 50%;
-  border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
-  border-top-color: rgb(0, 0, 0);
-  border-right-color: rgb(0, 0, 0);
-  border-bottom-color: rgb(0, 0, 0);
-  border-left-color: rgb(0, 0, 0);
-  background-color: rgb(0, 0, 0);
 }
 
 .allProjects {
@@ -39,15 +24,19 @@
 }
 
 .projectBorder1 {
-  box-shadow: -2px 7px 10px #0000007a;
-  background-color: #e3c5c5;
-  padding: 10px 20px 10px 20px;
-  margin: 15px;
-  border: 2px solid;
+  /* box-shadow: -2px 7px 10px #0000007a; */
+  padding: 30px;
+  margin: 0px 50px 50px 50px;
+  /* border: 2px solid; */
   font-family: "Cormorant Garamond", serif;
   font-weight: bold;
-  width: 35%;
+  width: 100%;
   text-align: center;
+  display: flex;
+  background-color: #ecdbc8ad;
+  height: 400px;
+  border-radius: 50% 50% / 10% 90%;
+  border: 1px solid #dfbc93;
 }
 .projectBorder2 {
   box-shadow: -2px 7px 10px #0000007a;
@@ -76,23 +65,29 @@
   font-family: "Cormorant Garamond", serif;
 }
 .cardInfo {
-  text-align: left;
+  width: 50%;
+  padding-top: 15px;
 }
 .healthyMindsProjectDescription {
-  font-size: 15px;
+  text-align: left;
+  padding-left: 50px;
+  font-size: 18px;
 }
 
 .socialSiteProjectDescription {
-  font-size: 15px;
-  padding: 0px 0px 15px 0px;
+  text-align: left;
+  padding-left: 50px;
+  text-align: left;
+  padding-left: 50px;
+  font-size: 18px;
 }
 .cardifyProjectDescription {
-  font-size: 15px;
-  padding: 0px 0px 15px 0px;
+  text-align: left;
+  font-size: 18px;
 }
 .stopForgettingAndStartListingProjectDescription {
-  font-size: 15px;
-  padding: 0px 0px 15px 0px;
+  text-align: left;
+  font-size: 18px;
 }
 
 .projectButton1 {
@@ -118,23 +113,23 @@
 }
 .healthyMinds {
   padding: 0px;
-  width: 100%;
+  width: 75%;
   border: 2px solid;
-  height: 240px;
+  height: 300px;
 }
 .healthyMindsTwo {
   display: none;
 }
 .socialSite {
   padding: 0px;
-  width: 100%;
+  width: 75%;
   border: 2px solid;
-  height: 240px;
+  height: 300px;
 }
 
 .containsImages {
-  height: 100% !important;
-  width: 100% !important;
+  /* height: 100% !important;
+  width: 100% !important; */
   display: inline-block;
   transition: all 0.5s;
   box-shadow: 4px 4px 4px #0000007a;
@@ -150,18 +145,23 @@
 }
 .cardify {
   padding: 0px;
-  width: 100%;
+  width: 75%;
   border: 2px solid;
-  height: 240px;
+  height: 300px;
 }
 .cardifyTwo {
   display: none;
+}
+
+.stopForgettingAndStartListingCardInfo {
+  padding-left: 175px;
 }
 .stopForgettingStartListing {
   padding: 0px;
   width: 100%;
   border: 2px solid;
-  height: 240px;
+  height: 300px;
+  margin-left: 45px;
 }
 .stopForgettingStartListingTwo {
   display: none;
