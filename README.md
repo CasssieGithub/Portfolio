@@ -8,8 +8,8 @@
 
 
 ## Description
-My portfolio is an representation of myself and projects I've worked on. It was really fun to make! 
-I hope you like it!
+My portfolio is an representation of myself and projects I've worked on. I utilized the visual tool, Trello to manage my project. It helped me stay organize and on track. It was really fun to make! 
+I hope you enjoy it!
 
 
 ## Pictures
