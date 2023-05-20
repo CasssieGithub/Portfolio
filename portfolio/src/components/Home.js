@@ -7,9 +7,12 @@ const Home = (props) => {
         <div className="fadeInTextAndPictureIntro">
           <div className="backgroundImg" id="homeButton">
             <div className="fade-in-text">
-              <p className="first">Hi, I'm Cassie!</p>
+              <p className="first">Hi, I'm Cassie</p>
               <p className="second">
                 <i>Front-end Engineer</i>
+              </p>
+              <p className="introPhrase">
+                with an innovative mind and a keen eye for design{" "}
               </p>
             </div>
 

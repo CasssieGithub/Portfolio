@@ -2,9 +2,20 @@
 
 .container {
   text-align: center;
-  width: 400px;
-  height: 300px;
   margin: auto;
+}
+
+.container:hover {
+  opacity: 1;
+}
+
+.hi {
+  display: none;
+}
+
+.hi:hover {
+  font-size: 50px;
+  display: block;
 }
 
 .myProjects {
@@ -24,10 +35,8 @@
 }
 
 .projectBorder1 {
-  /* box-shadow: -2px 7px 10px #0000007a; */
   padding: 30px;
   margin: 0px 50px 50px 50px;
-  /* border: 2px solid; */
   font-family: "Cormorant Garamond", serif;
   font-weight: bold;
   width: 100%;
@@ -39,30 +48,45 @@
   border: 1px solid #dfbc93;
 }
 .projectBorder2 {
-  box-shadow: -2px 7px 10px #0000007a;
-  background-color: #efd9d9;
-  padding: 30px 30px 20px 20px;
-  margin: 15px;
-  border: 2px solid;
+  padding: 30px;
+  margin: 0px 50px 50px 50px;
   font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  background-color: #ecdbc8ad;
+  height: 400px;
+  border-radius: 50% 50% / 10% 90%;
+  border: 1px solid #dfbc93;
 }
 
 .projectBorder3 {
-  box-shadow: -2px 7px 10px #0000007a;
-  background-color: #efd9d9;
-  padding: 30px 30px 20px 20px;
-  margin: 15px;
-  border: 2px solid;
+  padding: 30px;
+  margin: 0px 50px 50px 50px;
   font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  background-color: #ecdbc8ad;
+  height: 400px;
+  border-radius: 50% 50% / 10% 90%;
+  border: 1px solid #dfbc93;
 }
 
 .projectBorder4 {
-  box-shadow: -2px 7px 10px #0000007a;
-  background-color: #efd9d9;
-  padding: 30px 30px 20px 20px;
-  margin: 15px;
-  border: 2px solid;
+  padding: 30px;
+  margin: 0px 50px 50px 50px;
   font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  background-color: #ecdbc8ad;
+  height: 400px;
+  border-radius: 50% 50% / 10% 90%;
+  border: 1px solid #dfbc93;
 }
 .cardInfo {
   width: 50%;
@@ -120,6 +144,7 @@
 .healthyMindsTwo {
   display: none;
 }
+
 .socialSite {
   padding: 0px;
   width: 75%;
@@ -153,9 +178,6 @@
   display: none;
 }
 
-.stopForgettingAndStartListingCardInfo {
-  padding-left: 175px;
-}
 .stopForgettingStartListing {
   padding: 0px;
   width: 100%;
@@ -165,6 +187,23 @@
 }
 .stopForgettingStartListingTwo {
   display: none;
+}
+
+.technologiesUsed {
+  padding-top: 10px;
+}
+.gitHubAndLiveSiteLink {
+  justify-content: center;
+  display: flex;
+  padding-top: 10px;
+}
+.gitHubLink {
+  padding-right: 20px;
+  font-size: 20px;
+  display: flex;
+}
+.gitHubIcon {
+  padding-right: 5px;
 }
 
 @media screen and (max-width: 1400px) {
@@ -193,17 +232,5 @@
   }
   .projectBorder1 {
     margin: 30px;
-  }
-  .projectButton1 {
-    margin: 0px;
-  }
-  .projectButton2 {
-    margin: 0px;
-  }
-  .projectButton3 {
-    margin: 0px;
-  }
-  .projectButton4 {
-    margin: 0px;
   }
 }

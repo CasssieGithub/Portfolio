@@ -1,5 +1,7 @@
 import "./Projects.css";
-import Fade from "react-reveal/Fade";
+import { Slide } from "react-awesome-reveal";
+import Video from "./Videos";
+import { BsGithub } from "react-icons/bs";
 
 const Projects = () => {
   return (
@@ -14,12 +16,12 @@ const Projects = () => {
               <p className="project-description"></p>
 
               <div className="cardInfo">
-                <Fade left big>
-                  <div className="projectTitle">Healthy Minds</div>
-                  <br />
+                <div className="projectTitle">Healthy Minds</div>
+                <div className="technologiesUsed">
                   Python | React | React Router | HTML | CSS
-                  <br />
-                  <br />
+                </div>
+                <br />
+                <Slide direction="left">
                   <div className="healthyMindsProjectDescription">
                     This mood tracking app gives you the ability to track your
                     mood and provides two credible forms, based on the National
@@ -30,42 +32,40 @@ const Projects = () => {
                     treatment decisions. Hope you enjoy!
                     <br />
                     <br />
-                    Click the photo to access the livesite!
+                    <div className="gitHubAndLiveSiteLink">
+                      <div className="gitHubLink">
+                        <div className="gitHubIcon">
+                          <BsGithub />
+                        </div>
+                        <div>
+                          <a
+                            href="https://github.com/CasssieGithub/Healthy-Minds.git"
+                            title="healthyMinds"
+                          >
+                            Github{" "}
+                          </a>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </Fade>
+                </Slide>
               </div>
-              <Fade right big className="container">
-                <a
-                  className="projectButton1"
-                  href="https://github.com/CasssieGithub/Healthy-Minds.git"
-                  title="healthyMinds"
-                >
-                  <img
-                    className="healthyMinds containsImages"
-                    src="https://i.imgur.com/O2v8T4Q.png"
-                    width="300px"
-                    height="300px"
-                    alt="Healthy Minds"
-                  />
-                  <img
-                    className="healthyMindsTwo"
-                    src="https://i.imgur.com/RyRrsNt.jpg"
-                    alt="Tic Tac Toe Second"
-                  />
-                </a>
-              </Fade>
+              <div className="container">
+                <div classname="videoDiv">
+                  <Video src="https://i.imgur.com/v8qnIR2.mp4" />
+                </div>
+              </div>
             </div>
-
             <div className="projectBorder1">
               <p className="project-description"></p>
 
               <div className="cardInfo">
-                <Fade left big>
-                  <div className="projectTitle">Social Site</div>
-                  <br />
+                <div className="projectTitle">Social Site</div>
+                <div className="technologiesUsed">
                   Javascript | React | React Router | HTML | CSS
-                  <br />
-                  <br />
+                </div>
+                <br />
+                <Slide direction="left">
                   <div className="socialSiteProjectDescription">
                     Social Media apps are built to allow people to connect and
                     communicate online. They provide a platform to allow people
@@ -76,64 +76,43 @@ const Projects = () => {
                     what they've posted!
                     <br />
                     <br />
-                    Click the photo to access the livesite!
+                    <div className="gitHubAndLiveSiteLink">
+                      <div className="gitHubLink">
+                        <div className="gitHubIcon">
+                          <BsGithub />
+                        </div>
+                        <div>
+                          <a
+                            href="https://github.com/CasssieGithub/Healthy-Minds.git"
+                            title="healthyMinds"
+                          >
+                            Github{" "}
+                          </a>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </Fade>
+                </Slide>
               </div>
 
-              <Fade right big className="container">
-                <a
-                  className="projectButton2"
-                  href="https://github.com/CasssieGithub/Social-Site-Frontend"
-                  title="socialSite"
-                >
-                  <img
-                    className="socialSite containsImages"
-                    src="https://i.imgur.com/FNmAoYS.png"
-                    width="200px"
-                    height="200px"
-                    alt="Social Site"
-                  />
-                </a>
-
-                {/* <img
-                  className="socialSiteTwo"
-                  src="https://i.imgur.com/G8kQkyY.jpg"
-                  alt="Social Site Two"
-                /> */}
-              </Fade>
+              <div className="container">
+                <Video src="https://i.imgur.com/w0RFd4p.mp4" />
+              </div>
             </div>
             <div className="projectBorder1">
               <p className="project-description"></p>
 
-              <Fade left big className="container">
-                <a
-                  className="projectButton3"
-                  href="https://github.com/CasssieGithub/Cardify-Frontend"
-                  title="Cardify"
-                >
-                  <img
-                    className="cardify containsImages"
-                    src="https://i.imgur.com/Ja4L127.png"
-                    width="200px"
-                    height="200px"
-                    alt="Cardify"
-                  />
-                </a>
-              </Fade>
-              {/* <img
-                className="cardifyTwo"
-                src="https://i.imgur.com/ohGK140.jpg"
-                alt="Cardify Two"
-              /> */}
+              <div className="container">
+                <Video src="https://i.imgur.com/D1n1vQJ.mp4" />
+              </div>
 
               <div className="cardInfo">
-                <Fade right big>
-                  <div className="projectTitle">Cardify</div>
-                  <br />
+                <div className="projectTitle">Cardify</div>
+                <div className="technologiesUsed">
                   Python | React | React Router | HTML | CSS
-                  <br />
-                  <br />
+                </div>
+                <br />
+                <Slide direction="right">
                   <div className="cardifyProjectDescription">
                     Flashcards have been an effective study tool for a long
                     time. Thus, the creation of our app, Cardify. This site was
@@ -143,47 +122,43 @@ const Projects = () => {
                     could also add and delete individual cards from your deck.
                     <br />
                     <br />
-                    Click the photo to access the livesite!
+                    <div className="gitHubAndLiveSiteLink">
+                      <div className="gitHubLink">
+                        <div className="gitHubIcon">
+                          <BsGithub />
+                        </div>
+                        <div>
+                          <a
+                            href="https://github.com/CasssieGithub/Healthy-Minds.git"
+                            title="healthyMinds"
+                          >
+                            Github{" "}
+                          </a>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </Fade>
+                </Slide>
               </div>
             </div>
 
             <div className="projectBorder1">
               <p className="project-description"></p>
-              <Fade left big className="container">
-                <a
-                  className="projectButton4"
-                  href="https://github.com/CasssieGithub/Stop-Forgetting-Start-Listing"
-                  title="stopForgettingStartListing"
-                >
-                  <img
-                    className="stopForgettingStartListing containsImages"
-                    src="https://i.imgur.com/iWWCqp3.png"
-                    width="200px"
-                    height="200px"
-                    alt="Stop Forgetting Start Listing"
-                  />
-                </a>
-
-                {/* <img
-                  className="stopForgettingStartListingTwo"
-                  src="https://i.imgur.com/2vvqzOk.jpg"
-                  alt="stopForgettingStartListing Two"
-                /> */}
-              </Fade>
+              <div className="container">
+                <Video src="https://i.imgur.com/EPMlBk6.mp4" />
+              </div>
 
               <div className="cardInfo">
-                <Fade right big>
-                  <div className="stopForgettingAndStartListingCardInfo">
-                    <div className="projectTitle">
-                      Stop Forgetting and Start Listing
-                    </div>
-                    <br />
+                <div className="stopForgettingAndStartListingCardInfo">
+                  <div className="projectTitle">
+                    Stop Forgetting and Start Listing
+                  </div>
+                  <div className="technologiesUsed">
                     Javascript | HTML | CSS | Node.js | Express
                     <br /> MongoDB | EJS
-                    <br />
-                    <br />
+                  </div>
+                  <br />
+                  <Slide direction="right">
                     <div className="stopForgettingAndStartListingProjectDescription">
                       Forgetful much? Well, you're in luck! Introducing the List
                       app. This application gives you the ability to create,
@@ -192,10 +167,24 @@ const Projects = () => {
                       you could also create, edit or delete. Hope you enjoy!
                       <br />
                       <br />
-                      Click the photo to access the livesite!
+                      <div className="gitHubAndLiveSiteLink">
+                        <div className="gitHubLink">
+                          <div className="gitHubIcon">
+                            <BsGithub />
+                          </div>
+                          <div>
+                            <a
+                              href="https://github.com/CasssieGithub/Healthy-Minds.git"
+                              title="healthyMinds"
+                            >
+                              Github{" "}
+                            </a>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </Fade>
+                  </Slide>
+                </div>
               </div>
             </div>
           </div>

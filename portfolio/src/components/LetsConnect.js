@@ -7,7 +7,7 @@ const LetsConnect = () => {
        </>) : (<> </>) } */}
       <div id="letsConnect" className="containConnections">
         <h5 className="myConnections">Connect with me</h5>
-        <h3 className="easyAsOneTwoThree">It's easy as 1, 2 or 3</h3>
+        <h3 className="easyAsOneTwoThree">It's as easy as 1, 2 or 3</h3>
         <div className="line"></div>
 
         <div className="icons">

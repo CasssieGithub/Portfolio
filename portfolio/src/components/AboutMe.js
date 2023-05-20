@@ -16,22 +16,23 @@ const AboutMe = () => {
                 </font>
               </div>
               <div className="aboutMeParagraph">
-                my name is Cassie and I'm a front-end engineer. My previous
-                career was in healthcare, where I worked for seven years. While
-                I had the the benefit of helping others and looked forward to
-                going to work every day, I felt like there was something
-                missing. That’s when I started exploring web development, and I
-                quickly became intrigued by it. I began playing around with
-                programming and knew right away that I wanted to switch to a
-                career in this field. After a month of exploring my options, I
-                applied to the Software Engineer Immersive program at General
-                Assembly, and it was the best decision I’ve made. I stepped out
-                of my comfort zone and embarked on a new journey in web
-                development.
+                I’m grateful you’re reviewing my portfolio! Thank you for taking
+                the time. My name is Cassie and I’m a bubbly, optimistic and
+                animated person. As an ambitious front-end engineer, I am
+                thrilled to embrace this exciting opportunity in the field of
+                engineering! My previous career was in healthcare, where I
+                worked for seven years. While I had the benefit of helping
+                others and looked forward to going to work daily, I desired to
+                innovatively harness both my acute eye for detail and creative
+                instincts in a distinct manner. I began playing around with
+                programming and immediately knew I wanted to change my career
+                path. I applied to the Software Engineer Immersive program at
+                General Assembly, and voilà! I stepped out of my comfort zone
+                and embarked on a new journey in web development.
                 <br />
                 <br />
                 <div className="secondParagraph">
-                  Today, I’m excited to bring my problem-solving skills and
+                  Today, I’m excited to bring my problem-solving, creative and
                   innovative thinking to the workforce.
                   <br />
                   Thank you for taking the time to review my portfolio.
