@@ -27,7 +27,7 @@ const Nav = (props) => {
           <li className="navItems">
             <a
               className="resumeBtn"
-              href={process.env.PUBLIC_URL + "/Cassie.Resume.pdf"}
+              href={process.env.PUBLIC_URL + "/Resume.pdf"}
               target="_blank"
               rel="noreferrer"
             >
