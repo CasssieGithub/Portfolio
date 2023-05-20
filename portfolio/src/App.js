@@ -4,7 +4,6 @@ import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import LetsConnect from "./components/LetsConnect";
-import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 import "./App.css";
 
 const App = () => {

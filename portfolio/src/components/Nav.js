@@ -29,6 +29,7 @@ const Nav = (props) => {
               className="resumeBtn"
               href={process.env.PUBLIC_URL + "/Cassie.Resume.pdf"}
               target="_blank"
+              rel="noreferrer"
             >
               Resume
             </a>

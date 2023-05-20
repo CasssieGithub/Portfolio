@@ -6,8 +6,6 @@ const AboutMe = () => {
       <div className="containEverything">
         <div className="containsTitleAndText">
           <div id="aboutMe" className="containsAboutMe">
-            <h5 className="myAboutMe"></h5>
-
             <p className="myaboutmeText">
               <div className="greetingContainer">
                 <font className="greetingInAboutMe" size="+5">
