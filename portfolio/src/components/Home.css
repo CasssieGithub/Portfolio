@@ -16,25 +16,17 @@
   width: 50%;
 }
 .introPhrase {
-  font-size: 17px;
-  font-family: "EB Garamond", serif;
-  font-style: italic;
+  font-size: 22px;
   margin-top: 7px;
-  padding-left: 110px;
+  width: 100%;
 }
 
 .first {
-  margin: 70px 0px 0px 0px;
-  padding-right: 100px;
+  margin: 0px;
+  padding-right: 280px;
   font-size: 60px;
-  font-family: "EB Garamond", serif;
 }
-.second {
-  font-size: 40px;
-  margin: 0%;
-  padding: 0px 100px 0px 100px;
-  font-family: "EB Garamond", serif;
-}
+
 .imgBorder {
   box-shadow: -2px 7px 10px #0000007a;
   background-color: #e3c5c5;
