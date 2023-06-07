@@ -16,14 +16,13 @@
   width: 50%;
 }
 .introPhrase {
-  font-size: 22px;
-  margin-top: 7px;
+  font-size: 19px;
+  margin-top: 15px;
   width: 100%;
 }
 
 .first {
   margin: 0px;
-  padding-right: 280px;
   font-size: 60px;
   font-family: "EB Garamond", serif;
 }
