@@ -14,19 +14,23 @@ const AboutMe = () => {
                 </font>
               </div>
               <div className="aboutMeParagraph">
-                I’m grateful you’re reviewing my portfolio! Thank you for taking
-                the time. My name is Cassie and I’m a bubbly, optimistic and
-                animated person. As an ambitious front-end engineer, I am
-                thrilled to embrace this exciting opportunity in the field of
-                engineering! My previous career was in healthcare, where I
-                worked for seven years. While I had the benefit of helping
-                others and looked forward to going to work daily, I desired to
-                innovatively harness both my acute eye for detail and creative
-                instincts in a distinct manner. I began playing around with
-                programming and immediately knew I wanted to change my career
-                path. I applied to the Software Engineer Immersive program at
-                General Assembly, and voilà! I stepped out of my comfort zone
-                and embarked on a new journey in web development.
+                Thank you for considering my portfolio! I genuinely appreciate
+                the time you've taken. My name is Cassie, and I'm an
+                enthusiastic, optimistic, and animated individual. As a highly
+                motivated front-end engineer, I'm thrilled to embrace this
+                exciting opportunity in the engineering field. Drawing upon my
+                seven years of experience in the healthcare industry, I've
+                developed invaluable skills in problem-solving and innovative
+                thinking that I'm eager to apply in the engineering field. While
+                working in healthcare, I discovered fulfillment in creatively
+                addressing challenges and cultivated a strong attention to
+                detail. However, I desired to channel my creative instincts in a
+                fresh and innovative way, leading me to explore programming.
+                Upon diving into this new realm, I realized that changing my
+                career path was the right choice. I took a leap of faith and
+                enrolled in the Software Engineer Immersive program at General
+                Assembly, and voilà! I stepped out of my comfort zone and
+                embarked on an exhilarating new journey in web development.
                 <br />
                 <br />
                 <div className="secondParagraph">
