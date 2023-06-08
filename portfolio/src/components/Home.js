@@ -10,7 +10,7 @@ const Home = (props) => {
               <p className="first">Hi, I'm Cassie</p>
 
               <div className="introPhrase">
-                <b>Frontend Engineer</b>with an innovative mind and a keen eye
+                <b>Frontend Engineer</b> with an innovative mind and a keen eye
                 for design.{" "}
               </div>
             </div>
