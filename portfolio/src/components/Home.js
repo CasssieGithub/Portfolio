@@ -20,12 +20,12 @@ const Home = (props) => {
                 <>
                   <img
                     className="girlsWhoCode"
-                    src="https://i.imgur.com/Q1lJyrT.jpg"
+                    src="https://i.imgur.com/djmuq6R.jpg"
                     width="100%"
                     height="500px;"
                     alt="Girls Who Code"
                   />
-
+                  {/* https://i.imgur.com/Q1lJyrT.jpg */}
                   <div class="arrow arrow-first"></div>
                   <div class="arrow arrow-second"></div>
                 </>
