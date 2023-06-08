@@ -8,26 +8,25 @@ const Home = (props) => {
           <div className="backgroundImg" id="homeButton">
             <div className="fade-in-text">
               <p className="first">Hi, I'm Cassie</p>
-
+              <div className="second"> Frontend Engineer</div>
               <div className="introPhrase">
-                <b>Frontend Engineer</b> with an innovative mind and a keen eye
-                for design.{" "}
+                with an innovative mind and a keen eye for design.{" "}
               </div>
             </div>
 
             <div className="pictureOnIntro">
               {props.theme === "light" ? (
                 <>
-                  <img
-                    className="girlsWhoCode"
-                    src="https://i.imgur.com/djmuq6R.jpg"
-                    width="100%"
-                    height="500px;"
-                    alt="Girls Who Code"
-                  />
+                  <div className="girlsWhoCodeContainer">
+                    <img
+                      className="girlsWhoCode"
+                      src="https://i.imgur.com/k07PdTk.png"
+                      width="100%"
+                      height="500px;"
+                      alt="Girls Who Code"
+                    />
+                  </div>
                   {/* https://i.imgur.com/Q1lJyrT.jpg */}
-                  <div class="arrow arrow-first"></div>
-                  <div class="arrow arrow-second"></div>
                 </>
               ) : (
                 <>

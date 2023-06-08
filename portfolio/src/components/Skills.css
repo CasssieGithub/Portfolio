@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap");
+
+.skillsSectionContainer {
+  display: flex;
+}
+.skillsSectionTitle {
+  font-size: 30px;
+  color: #caa26e;
+  padding-right: 15px;
+}
+.languageSection {
+  padding-bottom: 10px;
+}
+.databaseSection {
+  padding-bottom: 10px;
+}
+.librariesAndFrameworksSection {
+  padding-bottom: 10px;
+}
+.otherSection {
+  padding-bottom: 10px;
+}

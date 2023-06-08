@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import LetsConnect from "./components/LetsConnect";
+import Skills from "./components/Skills";
 import "./App.css";
 
 const App = () => {
@@ -29,6 +30,7 @@ const App = () => {
         <Nav toggleTheme={toggleTheme} />
         <Home theme={theme} />
         <AboutMe />
+        <Skills />
         <Projects />
         <LetsConnect theme={theme} />
       </main>

@@ -22,15 +22,10 @@ const LetsConnect = () => {
               </a>
             </div>
           </div>
-          <div id="gitHub">
+          <div id="resume">
             <div className="numberOnFooter">2</div>
             <div>
-              <a
-                className="gitHubBtnToConnect"
-                href="https://github.com/CasssieGithub"
-              >
-                GitHub
-              </a>
+              <a href={process.env.PUBLIC_URL + "/Resume.pdf"}>Resume</a>
             </div>
           </div>
 
