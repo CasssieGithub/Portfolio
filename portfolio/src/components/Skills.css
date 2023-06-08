@@ -2,21 +2,52 @@
 
 .skillsSectionContainer {
   display: flex;
+  margin-top: 20px;
+  background-image: url(https://i.imgur.com/Jjqbn1W.png);
 }
 .skillsSectionTitle {
-  font-size: 30px;
-  color: #caa26e;
-  padding-right: 15px;
+  font-size: 60px;
+  color: black;
+  padding: 50px 15px 0px 50px;
 }
 .languageSection {
-  padding-bottom: 10px;
+  padding: 0px 40px 10px 50px;
+  margin: 35px 35px 35px 0px;
 }
 .databaseSection {
-  padding-bottom: 10px;
+  padding: 0px 40px 10px 50px;
+  margin: 35px 35px 35px 0px;
 }
 .librariesAndFrameworksSection {
-  padding-bottom: 10px;
+  padding: 0px 40px 10px 50px;
+  margin: 35px 35px 35px 0px;
 }
 .otherSection {
-  padding-bottom: 10px;
+  padding: 0px 40px 10px 50px;
+  margin: 35px 35px 35px 0px;
+}
+.languagesTitle {
+  font-size: 23px;
+  color: #b5823d;
+  padding-bottom: 15px;
+}
+.databasesTitle {
+  font-size: 23px;
+  color: #b5823d;
+  padding-bottom: 15px;
+}
+.librariesAndFrameworksTitle {
+  font-size: 23px;
+  color: #b5823d;
+  padding-bottom: 15px;
+}
+.otherTitle {
+  font-size: 23px;
+  color: #b5823d;
+  padding-bottom: 15px;
+}
+.backgroundImageOnSkillsSection {
+  display: flex;
+  margin: 20px 0px 40px 0px;
+  width: 100%;
 }

@@ -30,8 +30,9 @@ const App = () => {
         <Nav toggleTheme={toggleTheme} />
         <Home theme={theme} />
         <AboutMe />
-        <Skills />
+
         <Projects />
+        <Skills />
         <LetsConnect theme={theme} />
       </main>
     </>

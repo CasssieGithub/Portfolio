@@ -20,7 +20,7 @@ const Home = (props) => {
                   <div className="girlsWhoCodeContainer">
                     <img
                       className="girlsWhoCode"
-                      src="https://i.imgur.com/k07PdTk.png"
+                      src="https://i.imgur.com/o79wqgS.png"
                       width="100%"
                       height="500px;"
                       alt="Girls Who Code"
