@@ -6,15 +6,16 @@
   font-size: 50px;
   text-align: center;
   margin: 65px 0px 0px 0px;
-  background-color: #f2e7da;
+  background-color: #f1ddc3;
   font-family: "Cormorant Garamond", serif;
   padding-top: 30px;
 }
+
 .easyAsOneTwoThree {
   font-size: 30px;
   text-align: center;
   margin: 0px;
-  background-color: #f2e7da;
+  background-color: #f1ddc3;
   font-family: "Cedarville Cursive", cursive;
   padding-left: 150px;
 }
@@ -23,7 +24,7 @@
   font-size: 20px;
   justify-content: center;
   padding: 0px 0px 20px 0px;
-  background-color: #f2e7da;
+  background-color: #f1ddc3;
   font-family: "Cormorant Garamond", serif;
   font-weight: bold;
 }

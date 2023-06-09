@@ -9,28 +9,28 @@
   -o-animation: fadeIn 3s;
   -ms-animation: fadeIn 3s;
   max-height: 100%;
-  margin: 180px 0px 0px 0px;
+  margin: 100px 0px 0px 0px;
   width: 50%;
   padding: 30px;
   font-family: "Cormorant Garamond", serif;
+  text-align: right;
 }
 .introPhrase {
-  font-size: 19px;
+  font-size: 50px;
   margin-top: 15px;
   width: 102%;
 }
 
 .first {
   margin: 0px;
-  font-size: 60px;
-  font-family: "EB Garamond", serif;
   width: 96%;
+  text-align: left;
 }
 .second {
   font-size: 30px;
   font-family: "EB Garamond", serif;
   font-style: italic;
-  width: 80%;
+  text-align: left;
 }
 
 .imgBorder {
@@ -52,6 +52,12 @@
   margin-top: 20px;
   padding: 0px;
   border-radius: 30% 30% 0% 0%;
+}
+.introSectionOnHomePageWhenSmallerScreen {
+  display: none;
+}
+.barChartAboutMyself {
+  display: none;
 }
 
 @keyframes fadeIn {
@@ -99,45 +105,68 @@
   }
 }
 
-@media screen and (max-width: 1300px) {
-  .fade-in-text {
-    color: white;
+@media only screen and (max-width: 1350px) {
+  .first {
+    font-size: 60px;
+  }
+  .introPhrase {
+    font-size: 45px;
   }
 }
 
-@media screen and (max-width: 950px) {
-  .fade-in-text {
-    margin-bottom: 30px;
-    color: white;
-    text-align: center;
+@media only screen and (max-width: 950px) {
+  .introPhrase {
+    text-align: left;
   }
   .first {
-    padding-right: 0px;
-    width: 100%;
-    margin-top: 10px;
-  }
-  .second {
-    padding: 0px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .fade-in-text {
-    display: flex;
-    flex-direction: column;
-    margin: 30px;
-    padding-bottom: 30px;
-  }
-  .first {
-    font-size: 50px;
     margin-bottom: 10px;
   }
-  .second {
-    font-size: 40px;
-    margin-top: 10px;
+  .girlsWhoCode {
+    display: none;
   }
-  .fade-in-image {
-    width: 100%;
-    padding: 50px 100px 20px 100px;
+  .barChartAboutMyself {
+    display: block;
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 30%;
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .first {
+    font-size: 50px;
+  }
+  .introPhrase {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .introPhrase {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .introPhrase {
+    font-size: 30px;
+  }
+  .backgroundImg {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .introPhrase {
+    font-size: 20px;
+  }
+  .second {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 535px) {
+  .first {
+    font-size: 20px;
   }
 }

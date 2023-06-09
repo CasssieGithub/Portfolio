@@ -4,7 +4,6 @@
 
 .containEverything {
   background-image: url(https://i.imgur.com/p5bF9o6.png);
-  height: 650px;
 }
 
 .containsTitleAndText {
@@ -32,7 +31,7 @@
   margin: 0px;
   height: 425px;
   padding: 70px 150px 350px 150px;
-  background-color: #f0e5d9;
+  background-color: #f1ddc3;
   border-radius: 30px 30px 30px 30px;
 }
 .myAboutMe {
@@ -45,7 +44,30 @@
   background-color: #f0e5d9;
   border-radius: 30px 30px 0px 0px;
 }
-@media screen and (max-width: 950px) {
+
+@media only screen and (max-width: 1450px) {
+  .aboutMeParagraph {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .aboutMeParagraph {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .aboutMeParagraph {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .aboutMeParagraph {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
   .myAboutMe {
     text-align: center;
     font-size: 50px;
@@ -58,9 +80,22 @@
     margin: 55px 0px 60px 0px;
     padding: 0px 50px 0px 50px;
   }
+  .aboutMeParagraph {
+    padding: 90px 0px 0px 0px;
+  }
+
+  .greetingInAboutMe {
+    padding-top: 90px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .aboutMeParagraph {
+    font-size: 14px;
+    padding: 75px 0px 0px 0px;
+  }
 }
 
-@media screen and (max-length: 700px) {
+@media only screen and (max-width: 700px) {
   .myAboutMe {
     text-align: center;
     font-size: 50px;
@@ -68,5 +103,16 @@
   }
   .myaboutmeText br {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .aboutMeParagraph {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .aboutMeParagraph {
+    font-size: 10px;
   }
 }

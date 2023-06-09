@@ -3,28 +3,36 @@
 .skillsSectionContainer {
   display: flex;
   margin-top: 20px;
-  background-image: url(https://i.imgur.com/Jjqbn1W.png);
+  width: 100%;
+  background-image: url(https://i.imgur.com/9I07Uzw.png);
+  padding-bottom: 200px;
 }
 .skillsSectionTitle {
   font-size: 60px;
   color: black;
-  padding: 50px 15px 0px 50px;
+  padding: 50px 50px 0px 70px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
 }
 .languageSection {
   padding: 0px 40px 10px 50px;
-  margin: 35px 35px 35px 0px;
+  /* margin: 35px 35px 35px 0px; */
+}
+.listOfLanguages {
+  display: block;
+  color: black;
 }
 .databaseSection {
   padding: 0px 40px 10px 50px;
-  margin: 35px 35px 35px 0px;
+  /* margin: 35px 35px 35px 0px; */
 }
 .librariesAndFrameworksSection {
   padding: 0px 40px 10px 50px;
-  margin: 35px 35px 35px 0px;
+  /* margin: 35px 35px 35px 0px; */
 }
 .otherSection {
   padding: 0px 40px 10px 50px;
-  margin: 35px 35px 35px 0px;
+  /* margin: 35px 35px 35px 0px; */
 }
 .languagesTitle {
   font-size: 23px;
@@ -48,6 +56,14 @@
 }
 .backgroundImageOnSkillsSection {
   display: flex;
-  margin: 20px 0px 40px 0px;
+  margin: 20px 0px 0px 0px;
   width: 100%;
+  justify-content: center;
+}
+
+.skillsSectionCategoryContainer {
+  display: flex;
+  margin: 40px 0px 0px 0px;
+  width: 100%;
+  justify-content: center;
 }
