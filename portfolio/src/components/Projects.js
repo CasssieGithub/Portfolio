@@ -13,8 +13,6 @@ const Projects = () => {
         <div>
           <div className="allProjects">
             <div className="projectBorder1">
-              <p className="project-description"></p>
-
               <div className="cardInfo">
                 <div className="projectTitle">Healthy Minds</div>
                 <div className="technologiesUsed">
