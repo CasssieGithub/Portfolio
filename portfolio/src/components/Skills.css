@@ -15,24 +15,20 @@
   font-weight: bold;
 }
 .languageSection {
-  padding: 0px 40px 10px 50px;
-  /* margin: 35px 35px 35px 0px; */
+  padding: 0px 0px 10px 30px;
 }
 .listOfLanguages {
   display: block;
   color: black;
 }
 .databaseSection {
-  padding: 0px 40px 10px 50px;
-  /* margin: 35px 35px 35px 0px; */
+  padding: 0px 0px 10px 30px;
 }
 .librariesAndFrameworksSection {
-  padding: 0px 40px 10px 50px;
-  /* margin: 35px 35px 35px 0px; */
+  padding: 0px 0px 10px 30px;
 }
 .otherSection {
-  padding: 0px 40px 10px 50px;
-  /* margin: 35px 35px 35px 0px; */
+  padding: 0px 0px 10px 30px;
 }
 .languagesTitle {
   font-size: 23px;

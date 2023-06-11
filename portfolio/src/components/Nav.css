@@ -2,7 +2,7 @@
 
 nav {
   display: flex;
-  padding: 25px;
+  padding: 20px;
   align-items: center;
   overflow: hidden;
   position: fixed;
@@ -11,6 +11,7 @@ nav {
   width: 100%;
   background-color: #f1ddc3;
   border-bottom: 4mm ridge rgb(255 255 255 / 60%);
+  box-shadow: 0px 4px 5px rgb(125 122 122 / 60%);
 }
 
 .allNavLinks {

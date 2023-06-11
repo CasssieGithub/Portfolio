@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Cormorant+Garamond:wght@300&display=swap");
+
+.theFooterContainer {
+  background-color: #f1ddc3;
+}
+
+.wrappingTheImageTagInFooter {
+  height: 320px;
+}
+.imageInFooter {
+  width: 430px;
+  height: 320px;
+}
+.footerTitle {
+  font-size: 30px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+  padding: 50px 0px 0px 70px;
+}
+.portfolioDescriptionInFooter {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+  padding: 50px 50px 0px 70px;
+}
+.technologiesUsedContainer {
+  font-size: 25px;
+  font-family: "Cormorant Garamond", serif;
+  padding-top: 50px;
+}
+.technologiesAndImageInFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.technologiesUsedTitle {
+  font-size: 26px;
+  font-weight: bold;
+}
+.portfolioDescriptionInFooter {
+  font-size: 15px;
+}

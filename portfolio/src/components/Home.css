@@ -16,9 +16,10 @@
   text-align: right;
 }
 .introPhrase {
-  font-size: 50px;
+  font-size: 30px;
   margin-top: 15px;
   width: 102%;
+  text-align: left;
 }
 
 .first {
@@ -54,9 +55,6 @@
   border-radius: 30% 30% 0% 0%;
 }
 .introSectionOnHomePageWhenSmallerScreen {
-  display: none;
-}
-.barChartAboutMyself {
   display: none;
 }
 
@@ -114,22 +112,15 @@
   }
 }
 
+@media only screen and (max-width: 1000px) {
+}
+
 @media only screen and (max-width: 950px) {
   .introPhrase {
     text-align: left;
   }
   .first {
     margin-bottom: 10px;
-  }
-  .girlsWhoCode {
-    display: none;
-  }
-  .barChartAboutMyself {
-    display: block;
-    max-width: 300px;
-    max-height: 300px;
-    margin-top: 30%;
-    margin-left: 30px;
   }
 }
 
@@ -138,7 +129,8 @@
     font-size: 50px;
   }
   .introPhrase {
-    font-size: 38px;
+    font-size: 34px;
+
     margin-bottom: 20px;
   }
 }

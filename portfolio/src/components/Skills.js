@@ -26,7 +26,7 @@ const Skills = () => {
             </div>
             <div className="librariesAndFrameworksSection">
               <div className="librariesAndFrameworksTitle">
-                Libraries and Frameworks
+                Libraries and <br /> Frameworks <br />
               </div>
               <div>React</div>
               <div>Express.js</div>

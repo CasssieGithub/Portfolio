@@ -5,6 +5,7 @@ import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import LetsConnect from "./components/LetsConnect";
 import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 import "./App.css";
 
 const App = () => {
@@ -34,6 +35,7 @@ const App = () => {
         <Projects />
         <Skills />
         <LetsConnect theme={theme} />
+        <Footer />
       </main>
     </>
   );

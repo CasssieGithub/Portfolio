@@ -268,6 +268,13 @@
 @media only screen and (max-width: 875px) {
   .projectBorder1 {
     flex-direction: column;
+    padding: 0px;
+  }
+  .cardifyProjectDescription {
+    margin-bottom: 30px;
+  }
+  .stopForgettingAndStartListingProjectDescription {
+    margin-bottom: 30px;
   }
 }
 

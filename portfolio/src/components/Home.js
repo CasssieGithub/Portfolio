@@ -8,7 +8,7 @@ const Home = (props) => {
           <div className="backgroundImg" id="homeButton">
             <div className="fade-in-text">
               <p className="first">Hi, I'm Cassie!</p>
-              <div className="second"> Frontend Engineer,</div>
+              <div className="second"> Full Stack Engineer,</div>
               <div className="introPhrase">
                 with an innovative mind and a keen eye for design.{" "}
               </div>
@@ -20,11 +20,16 @@ const Home = (props) => {
                   <div className="girlsWhoCodeContainer">
                     <img
                       className="girlsWhoCode"
-                      src="https://i.imgur.com/o79wqgS.png"
-                      width="100%"
+                      src="https://i.imgur.com/uclfTU0.png"
+                      width="500px;"
                       height="500px;"
                       alt="Girls Who Code"
                     />
+                    {/* <img
+                      className="girlsWhoCodeMobilePhoto"
+                      src=""
+                      alt="Girls Who Code Mobile Photo"
+                    /> */}
                   </div>
                   {/* https://i.imgur.com/Q1lJyrT.jpg */}
                 </>
@@ -39,13 +44,6 @@ const Home = (props) => {
                   />
                 </>
               )}
-              <div>
-                <img
-                  className="barChartAboutMyself"
-                  alt="Bar Chart"
-                  src="https://i.imgur.com/EE0us8P.png"
-                />
-              </div>
             </div>
           </div>
         </div>
