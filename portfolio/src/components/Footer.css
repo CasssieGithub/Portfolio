@@ -10,8 +10,8 @@
   height: 320px;
 }
 .imageInFooter {
-  width: 430px;
-  height: 320px;
+  width: 410px;
+  height: 310px;
 }
 .footerTitle {
   font-size: 30px;
@@ -22,7 +22,7 @@
 .portfolioDescriptionInFooter {
   font-family: "Cormorant Garamond", serif;
   font-weight: bold;
-  padding: 50px 100px 0px 70px;
+  padding: 20px 50px 0px 0px;
 }
 .technologiesUsedContainer {
   font-size: 25px;
@@ -38,6 +38,7 @@
 .technologiesUsedTitle {
   font-size: 26px;
   font-weight: bold;
+  font-style: italic;
 }
 .portfolioDescriptionInFooter {
   font-size: 15px;
@@ -45,4 +46,12 @@
 .technologiesList {
   font-size: 18px;
   padding-top: 12px;
+}
+@media only screen and (max-width: 900px) {
+  .imageInFooter {
+    display: none;
+  }
+  .aboutMeParagraph {
+    padding: 70px 0px 0px 0px;
+  }
 }

@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="technologiesUsedContainer">
             <div>
               <div className="technologiesUsedTitle">
-                How did I build my portfolio?
+                How'd I build my portfolio?
               </div>
               <div className="technologiesList">
                 <div>JavaScript</div>

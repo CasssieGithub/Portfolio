@@ -55,6 +55,9 @@
   .aboutMeParagraph {
     font-size: 18px;
   }
+  .myaboutmeText {
+    padding: 70px 50px 350px 50px;
+  }
 }
 @media only screen and (max-width: 1150px) {
   .aboutMeParagraph {

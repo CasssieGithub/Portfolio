@@ -32,7 +32,13 @@ const Video = (props) => {
         autoplay="autoplay"
         ref={videoRef}
       >
-        <source width="300px" height="300px" src={props.src} type="video/mp4" />
+        <source
+          className="video"
+          width="300px"
+          height="300px"
+          src={props.src}
+          type="video/mp4"
+        />
       </video>
     </Waypoint>
   );
