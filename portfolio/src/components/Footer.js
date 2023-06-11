@@ -10,14 +10,12 @@ const Footer = () => {
           <div className="footerTitle">
             Thanks for review my portfolio.
             <div className="portfolioDescriptionInFooter">
-              By incorporating React, React Router, and JavaScript into my
-              portfolio, I have showcased my expertise in these technologies and
-              demonstrated my ability to create engaging and responsive web
-              applications. My portfolio serves as a testament to my skills and
-              commitment to delivering high-quality projects using these
-              technologies. I am excited to continue leveraging my knowledge and
-              expanding my portfolio by tackling new challenges and exploring
-              emerging technologies within the React ecosystem.
+              My portfolio serves as a testament to my skills and commitment to
+              delivering high-quality projects using these technologies. I am
+              excited to continue leveraging my knowledge and expanding my
+              portfolio by tackling new challenges and exploring emerging
+              technologies within the React ecosystem! Thanks for reviewing it
+              this far. I really hope to hear from you soon!
             </div>
           </div>
 

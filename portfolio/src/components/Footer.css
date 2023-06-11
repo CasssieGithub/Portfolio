@@ -22,12 +22,13 @@
 .portfolioDescriptionInFooter {
   font-family: "Cormorant Garamond", serif;
   font-weight: bold;
-  padding: 50px 50px 0px 70px;
+  padding: 50px 100px 0px 70px;
 }
 .technologiesUsedContainer {
   font-size: 25px;
   font-family: "Cormorant Garamond", serif;
   padding-top: 50px;
+  width: 65%;
 }
 .technologiesAndImageInFooter {
   display: flex;
