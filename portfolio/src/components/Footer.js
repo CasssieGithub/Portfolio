@@ -14,8 +14,8 @@ const Footer = () => {
               delivering high-quality projects using these technologies. I am
               excited to continue leveraging my knowledge and expanding my
               portfolio by tackling new challenges and exploring emerging
-              technologies within the React ecosystem! Thanks for reviewing it
-              this far. I really hope to hear from you soon!
+              technologies! Thanks for reviewing it this far. I really hope to
+              hear from you soon!
             </div>
           </div>
 
@@ -24,10 +24,12 @@ const Footer = () => {
               <div className="technologiesUsedTitle">
                 How did I build my portfolio?
               </div>
-              <div>JavaScript</div>
-              <div>React</div>
-              <div>HTML</div>
-              <div>CSS</div>
+              <div className="technologiesList">
+                <div>JavaScript</div>
+                <div>React</div>
+                <div>HTML</div>
+                <div>CSS</div>
+              </div>
             </div>
           </div>
           <div className="wrappingTheImageTagInFooter">
