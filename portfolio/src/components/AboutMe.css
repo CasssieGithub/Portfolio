@@ -14,6 +14,7 @@
   float: left;
   font-size: 46px;
   margin: 0 5px 0px 0px;
+  padding-top: 20px;
 }
 
 .secondParagraph {
@@ -21,7 +22,7 @@
 }
 
 .aboutMeParagraph {
-  padding: 5px;
+  padding: 23px;
 }
 
 .myaboutmeText {
@@ -29,8 +30,7 @@
   font-family: "Cormorant Garamond", serif;
   font-weight: bold;
   margin: 0px;
-  height: 425px;
-  padding: 70px 150px 350px 150px;
+  padding: 40px;
   background-color: #f1ddc3;
   border-radius: 30px 30px 30px 30px;
 }
@@ -55,18 +55,15 @@
   .aboutMeParagraph {
     font-size: 18px;
   }
-  .myaboutmeText {
-    padding: 70px 50px 350px 50px;
-  }
 }
 @media only screen and (max-width: 1150px) {
   .aboutMeParagraph {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 @media only screen and (max-width: 1050px) {
   .aboutMeParagraph {
-    font-size: 15px;
+    font-size: 17px;
   }
 }
 
@@ -80,21 +77,28 @@
     font-family: "Cormorant Garamond", serif;
     font-weight: bold;
     text-align: center;
-    margin: 55px 0px 60px 0px;
+
     padding: 0px 50px 0px 50px;
-  }
-  .aboutMeParagraph {
-    padding: 90px 0px 0px 0px;
   }
 
   .greetingInAboutMe {
     padding-top: 90px;
+    display: none;
+  }
+  .aboutMeParagraph {
+    padding: 30px 0px 30px 0px;
+  }
+  .containsTitleAndText {
+    padding: 40px;
   }
 }
+
+@media only screen and (max-width: 800px) {
+}
+
 @media only screen and (max-width: 750px) {
   .aboutMeParagraph {
-    font-size: 14px;
-    padding: 75px 0px 0px 0px;
+    font-size: 17px;
   }
 }
 
@@ -109,13 +113,8 @@
   }
 }
 
-@media only screen and (max-width: 650px) {
-  .aboutMeParagraph {
-    font-size: 12px;
-  }
-}
 @media only screen and (max-width: 550px) {
   .aboutMeParagraph {
-    font-size: 10px;
+    font-size: 16px;
   }
 }

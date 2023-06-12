@@ -6,7 +6,7 @@ const AboutMe = () => {
       <div className="containEverything">
         <div className="containsTitleAndText">
           <div id="aboutMe" className="containsAboutMe">
-            <p className="myaboutmeText">
+            <div className="myaboutmeText">
               <div className="greetingContainer">
                 <font className="greetingInAboutMe" size="+5">
                   {" "}
@@ -43,7 +43,7 @@ const AboutMe = () => {
                   <br />
                 </div>
               </div>
-            </p>
+            </div>
           </div>
         </div>
       </div>
