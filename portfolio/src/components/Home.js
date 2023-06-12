@@ -20,11 +20,10 @@ const Home = (props) => {
                   <div className="girlsWhoCodeContainer">
                     <img
                       className="girlsWhoCode"
-                      src="https://i.imgur.com/uclfTU0.png"
-                      width="500px;"
-                      height="500px;"
+                      src="https://i.imgur.com/6Mlf4xi.png"
                       alt="Girls Who Code"
                     />
+                    {/* "https://i.imgur.com/uclfTU0.png */}
                     {/* <img
                       className="girlsWhoCodeMobilePhoto"
                       src=""
