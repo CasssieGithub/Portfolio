@@ -1,6 +1,6 @@
 import "./Home.css";
 
-const Home = (props) => {
+const Home = () => {
   return (
     <>
       <div id="containerToWrapForFlexBox">
@@ -15,34 +15,15 @@ const Home = (props) => {
             </div>
 
             <div className="pictureOnIntro">
-              {props.theme === "light" ? (
-                <>
-                  <div className="girlsWhoCodeContainer">
-                    <img
-                      className="girlsWhoCode"
-                      src="https://i.imgur.com/6Mlf4xi.png"
-                      alt="Girls Who Code"
-                    />
-                    {/* "https://i.imgur.com/uclfTU0.png */}
-                    {/* <img
-                      className="girlsWhoCodeMobilePhoto"
-                      src=""
-                      alt="Girls Who Code Mobile Photo"
-                    /> */}
-                  </div>
-                  {/* https://i.imgur.com/Q1lJyrT.jpg */}
-                </>
-              ) : (
-                <>
+              <>
+                <div className="girlsWhoCodeContainer">
                   <img
                     className="girlsWhoCode"
-                    src="https://i.imgur.com/lD56EwJ.jpg"
-                    width="100%"
-                    height="400px;"
-                    alt="girlsWhoCodeDarkMode"
+                    src="https://i.imgur.com/6Mlf4xi.png"
+                    alt="Girls Who Code"
                   />
-                </>
-              )}
+                </div>
+              </>
             </div>
           </div>
         </div>

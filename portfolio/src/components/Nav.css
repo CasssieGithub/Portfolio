@@ -18,6 +18,7 @@ nav {
   font-size: 19px;
   text-align: right;
 }
+
 a {
   color: black;
   text-decoration: none;
@@ -50,75 +51,29 @@ li {
   margin: 10px;
 }
 
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-
-.toolTip .toolTipText {
-  visibility: hidden;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 5px;
-  left: 86%;
-  font-size: 15px;
-}
-
-.toolTip:hover .toolTipText {
-  visibility: visible;
-}
-
-/* .changeToDarkMode {
-  background: none;
-  border: none;
-  border-radius: 5px;
-  font-size: 25px;
-  width: 3%;
-} */
-.bi.bi-brightness-high {
+.hamburgerMenuBtn {
   display: none;
 }
 
-.bi.bi-moon-fill {
-  display: block;
+.bar {
+  display: none;
 }
-
-@media screen and (max-width: 1400px) {
-  .toolTip .toolTipText {
-    left: 90%;
-  }
-}
-
-@media screen and (max-width: 1600px) {
-  .toolTip .toolTipText {
-    left: 90%;
-  }
-}
-
-@media screen and (max-width: 1250px) {
-  .toolTip .toolTipText {
-    left: 88%;
-  }
+.containsNameLinksAndHamMenuBtn {
+  display: flex;
+  flex-grow: 4;
 }
 
 @media screen and (max-width: 950px) {
   ul {
     width: 67%;
   }
-  .toolTip .toolTipText {
-    font-size: 10px;
-  }
 }
 
 @media screen and (max-width: 700px) {
   nav {
     width: 100%;
-    padding: 0px;
+    padding: 20px 10px 20px 10px;
+    display: block;
   }
   .navItems {
     margin: 2.5rem 0;
@@ -143,15 +98,7 @@ li {
   li {
     display: block;
   }
-  .toolTip .toolTipText {
-    display: none;
-  }
-  .hamburger {
-    display: block;
-    cursor: pointer;
-    margin-left: auto;
-    padding-right: 10px;
-  }
+
   .bar {
     display: block;
     width: 25px;
@@ -161,10 +108,15 @@ li {
     transition: all 0.3s ease-in-out;
     background-color: #101010;
   }
-  /* .changeToDarkMode {
-    text-align: right;
-    width: 100%;
-    padding-right: 15px;
-    font-size: 21px;
-  } */
+
+  .hamburgerMenuBtn {
+    display: block;
+    background-color: #f9f2e7;
+    border: none;
+    margin-left: 92%;
+  }
+  .containsNameLinksAndHamMenuBtn {
+    justify-content: space-between;
+    padding-right: 40px;
+  }
 }

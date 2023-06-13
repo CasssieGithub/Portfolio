@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import Nav from "./components/Nav";
 import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
@@ -9,32 +8,15 @@ import Footer from "./components/Footer";
 import "./App.css";
 
 const App = () => {
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
-
-  const toggleTheme = () => {
-    if (theme === "light") {
-      setTheme("dark");
-    } else {
-      setTheme("light");
-    }
-  };
-
-  useEffect(() => {
-    localStorage.setItem("theme", theme);
-    document.body.className = theme;
-  }, [theme]);
-
   return (
     <>
-      <div className={`App ${theme}`}></div>
       <main>
-        <Nav toggleTheme={toggleTheme} />
-        <Home theme={theme} />
+        <Nav />
+        <Home />
         <AboutMe />
-
         <Projects />
         <Skills />
-        <LetsConnect theme={theme} />
+        <LetsConnect />
         <Footer />
       </main>
     </>
