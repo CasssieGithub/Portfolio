@@ -16,7 +16,7 @@
   text-align: right;
 }
 .introPhrase {
-  font-size: 30px;
+  font-size: 33px;
   margin-top: 15px;
   width: 102%;
   text-align: left;
@@ -45,9 +45,7 @@
 }
 .backgroundImg {
   display: flex;
-  margin: 100px 10px 0px 50px;
-  /* padding-left: 100px; */
-  /* width: 100%; */
+  padding-top: 40px;
 }
 .girlsWhoCode {
   margin-top: 20px;
@@ -104,65 +102,45 @@
 
 @media only screen and (max-width: 1450px) {
   .first {
-    font-size: 60px;
-  }
-  .introPhrase {
-    font-size: 35px;
+    font-size: 65px;
   }
 }
 @media only screen and (max-width: 1300px) {
   .first {
-    font-size: 47px;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-}
-
-@media only screen and (max-width: 950px) {
-  .introPhrase {
-    text-align: left;
-  }
-  .first {
-    margin-bottom: 10px;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .first {
-    font-size: 50px;
-  }
-  .introPhrase {
-    font-size: 34px;
-
-    margin-bottom: 20px;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  .introPhrase {
-    font-size: 35px;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  .introPhrase {
-    font-size: 30px;
-  }
-  .backgroundImg {
-    margin: 0px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .introPhrase {
-    font-size: 20px;
+    font-size: 51px;
   }
   .second {
-    font-size: 15px;
+    font-size: 25px;
+  }
+  .introPhrase {
+    font-size: 25px;
   }
 }
-@media only screen and (max-width: 535px) {
+@media only screen and (max-width: 1100px) {
   .first {
+    font-size: 35px;
+  }
+  .second {
     font-size: 20px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .backgroundImg {
+    flex-direction: column;
+    padding-top: 0px;
+  }
+  .fade-in-text {
+    width: 100%;
+  }
+  .first {
+    text-align: center;
+    font-size: 50px;
+  }
+  .second {
+    text-align: center;
+    font-size: 25px;
+  }
+  .introPhrase {
+    text-align: center;
   }
 }
