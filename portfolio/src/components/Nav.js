@@ -77,22 +77,41 @@ const Nav = () => {
         {hamburgerMenu && (
           <div className="hamburgerMenu.show">
             <div className="holdingHamburgerMenuLinks">
-              <div>
-                <a href="#aboutMe">About Me</a>
-                <BsFilePerson />
+              <div className="iconContainer">
+                <a className="aboutMeWithIcon" href="#aboutMe">
+                  About Me
+                </a>
+                <div className="icon">
+                  <BsFilePerson />
+                </div>
               </div>
 
-              <div>
-                <a href={process.env.PUBLIC_URL + "/Resume.pdf"}>Resume</a>
-                <CgFileDocument />
+              <div className="iconContainer">
+                <a
+                  className="resumeWithIcon"
+                  href={process.env.PUBLIC_URL + "/Resume.pdf"}
+                >
+                  Resume
+                </a>
+                <div className="icon">
+                  <CgFileDocument />
+                </div>
               </div>
-              <div>
-                <a href="#projects">Projects</a>
-                <AiOutlineFundProjectionScreen />
+              <div className="iconContainer">
+                <a className="projectsWithIcon" href="#projects">
+                  Projects
+                </a>
+                <div className="icon">
+                  <AiOutlineFundProjectionScreen />
+                </div>
               </div>
-              <div>
-                <a href="#letsConnect">Let's Connect</a>
-                <GiVibratingSmartphone />
+              <div className="iconContainer">
+                <a className="connectWithIcon" href="#letsConnect">
+                  Let's Connect
+                </a>
+                <div className="icon">
+                  <GiVibratingSmartphone />
+                </div>
               </div>
             </div>
           </div>

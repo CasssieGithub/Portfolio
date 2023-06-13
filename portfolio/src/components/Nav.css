@@ -119,4 +119,35 @@ li {
     justify-content: space-between;
     padding-right: 40px;
   }
+  .holdingHamburgerMenuLinks {
+    text-align: center;
+    padding-top: 20px;
+    margin: 30px;
+  }
+  .aboutMeWithIcon {
+    padding-right: 10px;
+    font-size: 25px;
+  }
+  .resumeWithIcon {
+    padding-right: 10px;
+    font-size: 25px;
+  }
+  .projectsWithIcon {
+    padding-right: 10px;
+    font-size: 25px;
+  }
+  .connectWithIcon {
+    padding-right: 10px;
+    font-size: 25px;
+    justify-content: center;
+  }
+  .iconContainer {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon {
+    font-size: 25px;
+  }
 }
