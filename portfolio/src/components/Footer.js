@@ -40,6 +40,13 @@ const Footer = () => {
             />
           </div>
         </div>
+        <div className="flowerPictureOnFooterContainer">
+          <img
+            className="flowerPictureOnFooter"
+            src="https://i.imgur.com/46KiiUg.png"
+            alt="flower"
+          />
+        </div>
       </div>
     </>
   );

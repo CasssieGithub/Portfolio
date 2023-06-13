@@ -47,6 +47,10 @@
   font-size: 18px;
   padding-top: 12px;
 }
+
+.flowerPictureOnFooterContainer {
+  display: none;
+}
 @media only screen and (max-width: 1200px) {
   .technologiesUsedTitle {
     font-size: 18px;
@@ -72,6 +76,15 @@
   }
   .technologiesUsedTitle {
     padding-right: 20px;
+  }
+  .flowerPictureOnFooterContainer {
+    display: block;
+  }
+  .flowerPictureOnFooter {
+    width: 100%;
+  }
+  .technologiesAndImageInFooter {
+    max-height: 200px;
   }
 }
 @media only screen and (max-width: 800px) {
