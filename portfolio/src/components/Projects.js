@@ -49,7 +49,7 @@ const Projects = () => {
                 </Slide>
               </div>
               <div className="container">
-                <div classname="videoDiv">
+                <div className="videoDiv">
                   <Video src="https://i.imgur.com/v8qnIR2.mp4" />
                 </div>
               </div>
