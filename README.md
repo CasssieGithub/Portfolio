@@ -21,7 +21,7 @@ I hope you enjoy it!
 
 <img width="569" alt="Screen Shot 2023-06-22 at 4 07 34 PM" src="https://github.com/CasssieGithub/Portfolio/assets/122661773/616a7312-4d7b-4421-afe7-5a2a72910f19">
 
-## Check out mobile version:
+## Responsive:
 
 <img width="340" alt="Screen Shot 2023-06-22 at 4 07 54 PM" src="https://github.com/CasssieGithub/Portfolio/assets/122661773/73532214-5461-439c-b74c-de029b05cbf0">
 
