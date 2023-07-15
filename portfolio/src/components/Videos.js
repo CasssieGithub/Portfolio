@@ -29,7 +29,7 @@ const Video = (props) => {
         width="550px"
         height="350px"
         muted
-        autoplay="autoplay"
+        autoPlay="autoPlay"
         ref={videoRef}
       >
         <source

@@ -47,7 +47,6 @@ const Footer = () => {
             alt="flower"
           />
         </div>
-        <div className="copyright">Copyright © 2023 Cassandra Hernandez</div>
       </div>
     </>
   );
