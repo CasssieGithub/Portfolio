@@ -40,14 +40,3 @@
     transform: rotate(360deg);
   }
 }
-
-/* ========================================START HERE===================================================== */
-
-.dark {
-  background-color: #000000;
-  color: #fff;
-}
-.light {
-  background-color: #fff;
-  color: #333;
-}
