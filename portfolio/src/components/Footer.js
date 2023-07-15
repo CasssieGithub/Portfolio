@@ -4,8 +4,6 @@ const Footer = () => {
   return (
     <>
       <div className="theFooterContainer">
-        {/* <div className="">Thanks for reviewing my portfolio.</div> */}
-
         <div className="technologiesAndImageInFooter">
           <div className="footerTitleContainer">
             <div className="footerTitle">Thanks for review my portfolio.</div>
