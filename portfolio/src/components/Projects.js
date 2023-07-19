@@ -81,7 +81,7 @@ const Projects = () => {
                         </div>
                         <div>
                           <a
-                            href="https://github.com/CasssieGithub/Healthy-Minds.git"
+                            href="https://github.com/CasssieGithub/Social-Site-Frontend.git"
                             title="healthyMinds"
                           >
                             Github{" "}
@@ -127,7 +127,7 @@ const Projects = () => {
                         </div>
                         <div>
                           <a
-                            href="https://github.com/CasssieGithub/Healthy-Minds.git"
+                            href="https://github.com/CasssieGithub/Cardify-Frontend.git"
                             title="healthyMinds"
                           >
                             Github{" "}
@@ -172,7 +172,7 @@ const Projects = () => {
                           </div>
                           <div>
                             <a
-                              href="https://github.com/CasssieGithub/Healthy-Minds.git"
+                              href="https://github.com/CasssieGithub/Stop-Forgetting-Start-Listing.git"
                               title="healthyMinds"
                             >
                               Github{" "}
