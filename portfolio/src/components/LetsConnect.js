@@ -23,7 +23,7 @@ const LetsConnect = () => {
           <div id="resume">
             <div className="numberOnFooter">2</div>
             <div>
-              <a href={process.env.PUBLIC_URL + "/Resume.pdf"}>Resume</a>
+              <a href={process.env.PUBLIC_URL + "/UpdatedResume.pdf"}>Resume</a>
             </div>
           </div>
 

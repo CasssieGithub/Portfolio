@@ -39,7 +39,7 @@ const Nav = () => {
             <li className="navItems">
               <a
                 className="resumeBtn"
-                href={process.env.PUBLIC_URL + "/Resume.pdf"}
+                href={process.env.PUBLIC_URL + "/UpdatedResume.pdf"}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -89,7 +89,7 @@ const Nav = () => {
               <div className="iconContainer">
                 <a
                   className="resumeWithIcon"
-                  href={process.env.PUBLIC_URL + "/Resume.pdf"}
+                  href={process.env.PUBLIC_URL + "/UpdatedResume.pdf"}
                 >
                   Resume
                 </a>
